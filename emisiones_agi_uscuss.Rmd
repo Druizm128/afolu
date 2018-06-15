@@ -2,7 +2,12 @@
 title: "Visualización de las emisiones del sector de agrícola y USCUSS"
 author: "Dante Ruiz"
 date: "1 de febrero de 2018"
-output: github_document
+output: 
+  github_document: default
+  #word_document: default
+  #html_document:
+  #  df_print: paged
+  
 ---
 
 ```{r setup, include=FALSE}
